@@ -5,7 +5,8 @@ import _AddPanel from "../PresentationalComponents/AddPanel/AddPanel"
 const mapStateToProps = state => {
   return {
     DrinkDatas: state.FetchDrinkReducer.DrinkDatas,
-    isFetch: state.FetchDrinkReducer.isFetch
+    isFetch: state.FetchDrinkReducer.isFetch,
+    addDrink:state.addDrink,
   };
 };
 

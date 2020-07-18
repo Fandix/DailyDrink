@@ -2,10 +2,13 @@ import { createStore, applyMiddleware } from "redux";
 import thunkMiddleware from "redux-thunk";
 import { combineReducers } from "redux";
 
-import { FetchDrinkReducer } from "./Reducers/MainPageReducers.js";
+import { FetchDrinkReducer,addDrink,editDrink,deleteDrink } from "./Reducers/MainPageReducers.js";
 
 const Reducers = combineReducers({
-  FetchDrinkReducer
+  FetchDrinkReducer,
+  addDrink,
+  editDrink,
+  deleteDrink
 });
 
 const middleware = applyMiddleware(thunkMiddleware);

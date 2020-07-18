@@ -2,7 +2,7 @@ import React from "react"
 import { render } from "react-dom"
 import style from "./AddPanel.module.scss"
 import { GiCancel } from "react-icons/gi";
-import { addDrink,RequestPost,Fetch_Drink } from "../../Redux/Action/MainPageAction"
+import { addDrink } from "../../Redux/Action/MainPageAction"
 
 class AddPanel extends React.Component{
     state = {

@@ -4,7 +4,8 @@ import { deleteDrink } from "../Redux/Action/MainPageAction"
 
 const mapStateToProps = state => {
     return {
-      
+      editDrink:state.editDrink,
+      deleteDrinks:state.deleteDrink
     };
   };
   

@@ -1,9 +1,10 @@
 import React from "react";
-import { RequestPost, Fetch_Drink } from "../Redux/Action/MainPageAction";
+import { RequestPost, Fetch_Drink,addDrinkInit } from "../Redux/Action/MainPageAction";
 import Header from "./General/Header/Header"
 import Loading from "./General/Loading/Loading"
 import DrinksDataList from "../ContainerComponents/DrinksList"
 import DrinksListHeader from "./General/DrinksHeader/DrinksListHeader"
+import { toast } from 'react-toastify';
 import style from "./Main.module.scss"
 
 class FetchDrinkPresentation extends React.Component {
@@ -28,6 +29,13 @@ class FetchDrinkPresentation extends React.Component {
       this.setState({
         drinkData: this.props.DrinkDatas
       });
+    }
+    if(this.props.addDrink.addSuccess === true){
+      toast.success("Add Drink Success!")
+      this.props.dispatch(addDrinkInit());
+    }else if(this.props.addDrink.addFail === true){
+      toast.error("Add Drink Fail!")
+      this.props.dispatch(addDrinkInit());
     }
   }
 

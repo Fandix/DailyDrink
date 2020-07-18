@@ -2,7 +2,7 @@ import React from "react"
 import { render } from "react-dom"
 import style from "./EditPanel.module.scss"
 import { GiCancel } from "react-icons/gi";
-import { editDrink,RequestPost,Fetch_Drink } from "../../Redux/Action/MainPageAction"
+import { editDrink } from "../../Redux/Action/MainPageAction"
 
 class EditPanel extends React.Component{
     state = {

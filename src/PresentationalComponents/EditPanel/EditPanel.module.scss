@@ -15,10 +15,10 @@
         z-index: 9;
     }
     .panel{
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 400px;
         position: fixed;
-        top: 200px;
+        top: 100px;
         bottom: 0;
         background: #fff;
         box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
@@ -48,17 +48,17 @@
             .count,
             .amout{
                 width: 100%;
-                height: 70px;
+                height: 50px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 border-bottom: 1px solid rgba(170, 170, 170,.6);
                 label{
-                    font-size: 24px;
+                    font-size: 16px;
                     font-weight: 600;
                 }
                 input{
-                    width: 300px;
+                    width: 200px;
                     height: 30px;
                     border: 1px solid rgba(170, 170, 170,.6);
                     border-radius: 5px;
@@ -67,20 +67,21 @@
             }
             .note{
                 width: 100%;
-                height: 140px;
+                height: 70px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 label{
-                    font-size: 24px;
+                    font-size: 18px;
                     font-weight: 600;
                 }
                 textarea{
-                    width: 300px;
-                    height: 100px;
+                    width: 200px;
+                    height: 70px;
                     border: 1px solid rgba(170, 170, 170,.6);
                     border-radius: 5px;
-                    font-size: 18px;
+                    font-size: 12px;
+                    margin-top: 30px;
                 }
             }
             .btn{
@@ -89,23 +90,22 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
+                margin-top: 20px;
                 .submit,
                 .cancel{
-                    margin-bottom: 10px;
-                    margin-top: -20px;
+                    margin-top: 20px;
                     button{
-                        width: 80px;
-                        height: 40px;
-                        font-size: 20px;
+                        width: 60px;
+                        height: 30px;
+                        font-size: 16px;
                         border: none;
                         color: #fff;
-                        cursor: pointer;
                         border-radius: 5px;
                     }
                 }
                 .submit{
                     button{
-                        margin-right: 10px;
+                        margin-right: 15px;
                         background-color: #888;
                     }
                 }
@@ -116,8 +116,62 @@
                 }
             }
         }
-    }
+    }    
 }
 .nonActive{
     display: none;
+}
+
+
+@media screen and (min-width: 960px){
+    .active{
+        .panel{
+            width: 500px;
+            height: 500px;
+            top: 200px;
+            .content{
+                .name,
+                .count,
+                .amout{
+                    label{
+                        font-size: 24px;
+                    }
+                    input{
+                        width: 300px;
+                    }
+                }
+                .note{
+                    height: 140px;
+                    label{
+                        font-size: 24px;
+                    }
+                    textarea{
+                        width: 300px;
+                        height: 100px;
+                        font-size: 18px;
+                    }
+                }
+                .btn{
+                    margin-top: 30px;
+                    .submit,
+                    .cancel{
+                        margin-bottom: 10px;
+                        margin-top: -20px;
+                        button{
+                            width: 80px;
+                            height: 40px;
+                            font-size: 20px;
+                            cursor: pointer;
+                        }
+                    }
+                    .submit{
+                        button{
+                            margin-right: 10px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

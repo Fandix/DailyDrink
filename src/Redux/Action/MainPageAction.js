@@ -45,6 +45,12 @@ const addDrinkState = (res,err) => {
   };
 }
 
+export const addDrinkInit = () => {
+  return{
+    type:"ADD_DRINK_INIT"
+  }
+}
+
 export const addDrink = (drink) => {
   return dispatch => {
     axios.post("https://stormy-citadel-71123.herokuapp.com/Drink",drink)
@@ -72,6 +78,12 @@ const deleteDrinkState = (res,err) => {
   };
 }
 
+export const deleteDrinkInit = () => {
+  return{
+    type:"DELETE_DRINK_INIT"
+  }
+}
+
 export const deleteDrink = (id) => {
   return dispatch => {
     axios.delete(`https://stormy-citadel-71123.herokuapp.com/Drink/${id}`)
@@ -97,6 +109,12 @@ const editDrinkState = (res,err) => {
   return {
     type: "EDIT_DRINK_FAIL",
   };
+}
+
+export const editDrinkInit = () => {
+  return{
+    type:"EDIT_DRINK_INIT"
+  }
 }
 
 export const editDrink = (id,data) => {
