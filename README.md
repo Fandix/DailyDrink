@@ -14,10 +14,21 @@
 
 # URL
 
-Live URL : 
+Live URL : https://daily-drink.fandix.vercel.app/
 
 # 照片
 
+## Main Page
+![Main Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767ouOJ1r6KRf.png)<br><br>
+
+# Add Panel
+![Add Panel](https://ithelp.ithome.com.tw/upload/images/20200718/20124767MWbNZnZ6wA.png)<br><br>
+
+# Edit Panel
+![Edit Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767kxAAhkaa75.png)<br><br>
+
+# Mobile Page
+![Mobile Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767UrxYNkOkeV.png)<br><br>
 
 # 使用技術
 1. ReactJS

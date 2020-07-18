@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "gulp-gh-pages": "^0.5.4",
+    "now": "^19.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
@@ -20,7 +21,8 @@
     "react-transition-group": "^4.4.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
