@@ -19,16 +19,16 @@ Live URL : https://daily-drink.fandix.vercel.app/
 # 照片
 
 ## Main Page
-![Main Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767ouOJ1r6KRf.png)<br><br>
+![Main Page](https://ithelp.ithome.com.tw/upload/images/20200721/2012476765SR27r9xz.png)<br><br>
 
 # Add Panel
-![Add Panel](https://ithelp.ithome.com.tw/upload/images/20200718/20124767MWbNZnZ6wA.png)<br><br>
+![Add Drink Panel](https://ithelp.ithome.com.tw/upload/images/20200721/20124767J5zJEEsJ2N.png)<br><br>
 
 # Edit Panel
-![Edit Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767kxAAhkaa75.png)<br><br>
+![Edit Drink Panel](https://ithelp.ithome.com.tw/upload/images/20200721/20124767e4q9RUCZoW.png)<br><br>
 
-# Mobile Page
-![Mobile Page](https://ithelp.ithome.com.tw/upload/images/20200718/20124767UrxYNkOkeV.png)<br><br>
+# Mobile Page in IPhone-X
+![Mobile Page in IPhone-X](https://ithelp.ithome.com.tw/upload/images/20200721/201247676VedXWtfHz.png)<br><br>
 
 # 使用技術
 1. ReactJS
