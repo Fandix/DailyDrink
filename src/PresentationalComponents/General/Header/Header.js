@@ -6,7 +6,7 @@ const Header = props => {
         <div className={style.wrap}>
             <div className={style.box}>
                 <div className={style.img}>
-                    <img src="/17_.png" alt="logo" />
+                    <img src="/drink.png" alt="logo" />
                 </div>
                 <div className={style.title}>
                     <span>Daily Drinks</span>
